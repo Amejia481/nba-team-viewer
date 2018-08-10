@@ -2,6 +2,8 @@
 
 <img src="https://raw.githubusercontent.com/Amejia481/nba-team-viewer/master/NBA%20Teams.gif" align="center" height="500px" width="282px"/>
 
+The green color indicates that the team has more wins than losses and the red one indicate the opposite.
+
 ### App info:
 + Model View Presenter (MVP)
 + Package by feature
