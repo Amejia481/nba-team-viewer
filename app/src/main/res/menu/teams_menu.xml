@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item
+    android:id="@+id/sort_by_wins"
+    android:title="@string/sort_by_wins"
+    app:showAsAction="never" />
+
+  <item
+    android:id="@+id/sort_by_losses"
+    android:title="@string/sort_by_losses"
+    app:showAsAction="never" />
+
+</menu>

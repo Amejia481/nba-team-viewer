@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+
+  <TextView
+    android:id="@+id/team_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/roboto_bold"
+    android:gravity="center_vertical|center_horizontal"
+    android:padding="@dimen/margin_big"
+    android:textColor="@android:color/white"
+    android:textSize="@dimen/text_size_huge"
+    android:textStyle="bold"
+    tools:text="Boston Celtics" />
+
+  <LinearLayout
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/margin_small"
+    android:weightSum="4">
+
+    <TextView
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1.5"
+      android:drawableEnd="@drawable/ic_wins_24dp"
+      android:fontFamily="@font/roboto_bold"
+      android:gravity="center_vertical|center_horizontal"
+      android:text="@string/wins"
+      android:textColor="@android:color/white"
+      android:textSize="@dimen/text_size_initials"
+      android:textStyle="bold" />
+
+    <TextView
+      android:id="@+id/wins_label"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="0.5"
+      android:fontFamily="@font/roboto_bold"
+      android:gravity="center_vertical|center_horizontal"
+      android:textColor="@android:color/white"
+      android:textSize="@dimen/text_size_big"
+      tools:text="10" />
+
+    <TextView
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1.5"
+      android:drawableEnd="@drawable/ic_losses_24dp"
+      android:fontFamily="@font/roboto_bold"
+      android:gravity="center_vertical|center_horizontal"
+      android:text="@string/losses"
+      android:textColor="@android:color/white"
+      android:textSize="@dimen/text_size_initials"
+      android:textStyle="bold" />
+
+    <TextView
+      android:id="@+id/losses_label"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="0.5"
+      android:fontFamily="@font/roboto_bold"
+      android:gravity="center_vertical|center_horizontal"
+      android:textColor="@android:color/white"
+      android:textSize="@dimen/text_size_big"
+      tools:text="5" />
+
+  </LinearLayout>
+
+
+</LinearLayout>

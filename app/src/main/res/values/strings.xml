@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">NBA Team View</string>
+  <string name="title_activity_teams">NBA Teams</string>
+  <string name="wins">Wins</string>
+  <string name="losses">Losses</string>
+  <string name="position">Position</string>
+  <string name="number">Number</string>
+  <string name="players">Players</string>
+  <string name="sort_by_wins">Sort by wins</string>
+  <string name="sort_by_losses">Sort by losses</string>
+</resources>
